@@ -198,7 +198,7 @@ modelFit$finalModel
 rpart.plot(modelFit$finalModel)
 ```
 
-![](Project_analysis_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![Decision Tree Plot](https://github.com/DayeW/PracticalMachineLearning/blob/master/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 After seeing the variability in the plot, I considered pruning the plot down to fewer variables; however, I wanted to see instead the accuracy and error rate before continuing on with the Decision Tree algorithm. 
 
@@ -261,7 +261,7 @@ modelFit1$finalModel
 plot(modelFit1)
 ```
 
-![](Project_analysis_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![Random Forests Plot](https://github.com/DayeW/PracticalMachineLearning/blob/master/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 ```r
 prediction1 <- predict(modelFit1, newdata = testing, type = "class")
